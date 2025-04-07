@@ -1,0 +1,40 @@
+/* app/match/styles/question-card.css */
+
+.question-card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 30px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    font-family: sans-serif;
+  }
+  
+  .question-card h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .choices {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .choices button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 2px solid #0055aa;
+    border-radius: 8px;
+    background-color: #0768bd;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+  
+  .choices button:hover {
+    background-color: #0055aa;
+    color: white;
+  }
+  

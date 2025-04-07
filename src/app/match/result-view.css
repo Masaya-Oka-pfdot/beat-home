@@ -1,0 +1,45 @@
+/* app/match/styles/result-view.css */
+
+.result-view {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 24px;
+    background: #fefefe;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    font-family: sans-serif;
+  }
+  
+  .result-view h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    text-align: center;
+    color: #222;
+  }
+  
+  .result-view h3{
+    color:#222;
+  }
+
+  .result-view p {
+    font-size: 18px;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #222;
+  }
+  
+  .result-view ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .result-view li {
+    background-color: #2467cb;
+    padding: 10px 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
