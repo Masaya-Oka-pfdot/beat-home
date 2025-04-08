@@ -3,8 +3,8 @@
 import { useState } from 'react';
 import QuestionCard from './QuestionCard';
 import ResultView from './ResultView';
-import questions from '../../../constants/questions';
-import parties from '../../../constants/partyPolicies';
+import questions from '../../../constants/match/questions';
+import parties from '../../../constants/match/partyPolicies';
 
 const calculateResult = (answers) => {
   
